@@ -16,23 +16,25 @@ html {
 
 body {
   height: 100vh;
+  background-color: #E8EEFC;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   min-height: 100%;
 
-  font-family: "HankenGrotesk-VariableFont_wght", sans-serif;
+  /* font-family: "HankenGrotesk-VariableFont_wght", sans-serif; */
   padding: 0 2rem;
 }
 .wrapper {
   font-size: 1.6rem;
   margin: 0 auto;
-  width: 85vh;
-  height: 60vh;
-  margin-top: 15vh;
+  width: 90vh;
+  height: 70vh;
+  /* margin-top: 15vh; */
 
   display: flex;
+  background-color: #FFFFFF;
 
   border-radius: 2rem;
   box-shadow: 11px 10px 46px 0px rgba(51, 45, 235, 0.1);
@@ -43,31 +45,37 @@ body {
 .result {
   background: linear-gradient(180deg, #6743ff 0%, #322deb 100%);
   border-radius: 2rem;
-  width: 40vw;
-  color: #fff;
-  text-align: center;
-  padding: 7rem;
+  width: 45vw;
+  /* color: #fff; */
+  /* text-align: center; */
+  /* padding: 7rem; */
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .result__title {
-  font-size: 2.4rem;
+  font-size:14px;
+  margin-bottom: 43px;
   color: #cac5ff;
-  font-weight: 500;
+  font-weight: 300;
+  margin-top: 35px;
+
 }
 
 .result__score {
   background-color: #452cdf;
-  height: 20rem;
-  width: 20rem;
-  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
   align-self: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .result__score-number {
@@ -81,18 +89,21 @@ body {
   color: #8478ff;
   font-weight: 500;
 
-  justify-self: flex-end;
+  /* justify-self: flex-end; */
 }
 
 .result__score-text {
   font-size: 3.2rem;
   font-weight: 500;
   color: #fcf7ff;
+  margin-bottom: 25px;
+  margin-top: 20px;
 }
 
 .result__paragraph {
   font-size: 1.8rem;
   color: #bcbdff;
+  text-align: center;
 }
 
 
@@ -191,6 +202,7 @@ body {
   background-color: #303b59;
   padding: 1.8rem;
   border-radius: 99rem;
+  margin-top: 5px;
 
   cursor: pointer;
 }
